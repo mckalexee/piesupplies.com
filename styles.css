@@ -72,7 +72,8 @@ ul#external-links > li > a {
   text-decoration: none;
 }
 
-ul#external-links > li > a:hover {
+ul#external-links > li > a:hover,
+ul#external-links > li > a:focus {
   text-decoration: underline;
   background: #ffd3ec;
 }
